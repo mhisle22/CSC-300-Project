@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<server>
+    <userList>
+        <users>
+            <username>admin</username>
+            <password>CSC300</password>
+            <department>
+                <departmentName>DEFAULT</departmentName>
+                <planList>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Top Level</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Middle Level</name>
+    <rank>2</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Top Level</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+    <comments>This is a category comment</comments>
+</category>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Middle Level</name>
+    <rank>2</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>1</max>
+        <name>Top Level</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <children>
+        <type>
+            <min>1</min>
+            <max>5</max>
+            <name>Middle Level</name>
+            <rank>2</rank>
+            <statementCount>1</statementCount>
+        </type>
+        <data>vtevtb4bwebefb</data>
+        <name>Goals</name>
+        <comments>dfoknv</comments>
+    </children>
+    <data>wefvbfg n </data>
+    <name>Tk</name>
+    <comments>ojefvnekjv</comments>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2018</year>
+                        <id>2154q</id>
+                        <name>Example Plan</name>
+                        <quarter></quarter>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2018</year>
+                        <id>1er</id>
+                        <name>First Plan Example</name>
+                        <quarter>First</quarter>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Top Level</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Top Level</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>1</max>
+        <name>Top Level</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <data>Make money, live worse</data>
+    <name>Goals</name>
+    <comments>This is a great concept! We need to have important goals.</comments>
+    <comments>I hate this idea- I've never had a goal before in my life.</comments>
+    <comments>Filler</comments>
+    <comments>moar filler</comments>
+    <comments>even moar fille</comments>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2017</year>
+                        <id>12e</id>
+                        <name>Second Example</name>
+                        <quarter>Second</quarter>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>2</max>
+    <name>Missions</name>
+    <rank>2</rank>
+    <statementCount>1</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Objectives</name>
+    <rank>3</rank>
+    <statementCount>2</statementCount>
+</category>
+<category>
+    <min>2</min>
+    <max>4</max>
+    <name>Strategies</name>
+    <rank>4</rank>
+    <statementCount>2</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>15</max>
+    <name>Action Plans</name>
+    <rank>5</rank>
+    <statementCount>2</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>2</max>
+    <name>Missions</name>
+    <rank>2</rank>
+    <statementCount>1</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Objectives</name>
+    <rank>3</rank>
+    <statementCount>2</statementCount>
+</category>
+<category>
+    <min>2</min>
+    <max>4</max>
+    <name>Strategies</name>
+    <rank>4</rank>
+    <statementCount>2</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>15</max>
+    <name>Action Plans</name>
+    <rank>5</rank>
+    <statementCount>2</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>1</max>
+        <name>Values</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <children>
+        <type>
+            <min>1</min>
+            <max>2</max>
+            <name>Missions</name>
+            <rank>2</rank>
+            <statementCount>1</statementCount>
+        </type>
+        <children>
+            <type>
+                <min>1</min>
+                <max>5</max>
+                <name>Objectives</name>
+                <rank>3</rank>
+                <statementCount>2</statementCount>
+            </type>
+            <children>
+                <type>
+                    <min>2</min>
+                    <max>4</max>
+                    <name>Strategies</name>
+                    <rank>4</rank>
+                    <statementCount>2</statementCount>
+                </type>
+                <children>
+                    <type>
+                        <min>1</min>
+                        <max>15</max>
+                        <name>Action Plans</name>
+                        <rank>5</rank>
+                        <statementCount>2</statementCount>
+                    </type>
+                    <data>r</data>
+                    <name>Action plan: preschools</name>
+                </children>
+                <children>
+                    <type>
+                        <min>1</min>
+                        <max>15</max>
+                        <name>Action Plans</name>
+                        <rank>5</rank>
+                        <statementCount>2</statementCount>
+                    </type>
+                    <data>yeah</data>
+                    <name>Action plan: elementary schools</name>
+                </children>
+                <data>Yeah</data>
+                <name>Strategy: the kids first</name>
+            </children>
+            <children>
+                <type>
+                    <min>2</min>
+                    <max>4</max>
+                    <name>Strategies</name>
+                    <rank>4</rank>
+                    <statementCount>2</statementCount>
+                </type>
+                <data>oewjfv</data>
+                <name>Strategy: and then the adults</name>
+            </children>
+            <data>One toilet at a time</data>
+            <name>Objective: save the world</name>
+        </children>
+        <children>
+            <type>
+                <min>1</min>
+                <max>5</max>
+                <name>Objectives</name>
+                <rank>3</rank>
+                <statementCount>2</statementCount>
+            </type>
+            <data>I still don't know what to type here</data>
+            <name>Objective: clean the world</name>
+        </children>
+        <data>More filler</data>
+        <name>Mission: no person goes uncleaned</name>
+    </children>
+    <data>Motivational words</data>
+    <name>To make a better world with our toilet paper</name>
+    <comments>This is chill</comments>
+    <comments>I hate this</comments>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2015</year>
+                        <id>vm0sa</id>
+                        <name>Yearly VMOSA Plan</name>
+                        <quarter>Yearly</quarter>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Point One</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+<category>
+    <min>2</min>
+    <max>5</max>
+    <name>Point Two</name>
+    <rank>2</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Point One</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+<category>
+    <min>2</min>
+    <max>5</max>
+    <name>Point Two</name>
+    <rank>2</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>1</max>
+        <name>Point One</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <data>yes</data>
+    <name>Kaeman </name>
+    <comments>maeman</comments>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2014</year>
+                        <id>CC4</id>
+                        <name>Centre College Plan- 4th</name>
+                        <quarter>Fourth</quarter>
+                    </plans>
+                </planList>
+            </department>
+            <isAdmin>true</isAdmin>
+        </users>
+    </userList>
+    <departmentList>
+        <departments>
+            <departmentName>DEFAULT</departmentName>
+            <planList>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Top Level</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>5</max>
+<name>Middle Level</name>
+<rank>2</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Top Level</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+<comments>This is a category comment</comments>
+                            </category>
+                            <category>
+<min>1</min>
+<max>5</max>
+<name>Middle Level</name>
+<rank>2</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <children>
+<type>
+    <min>1</min>
+    <max>1</max>
+    <name>Top Level</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</type>
+<children>
+    <type>
+        <min>1</min>
+        <max>5</max>
+        <name>Middle Level</name>
+        <rank>2</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <data>vtevtb4bwebefb</data>
+    <name>Goals</name>
+    <comments>dfoknv</comments>
+</children>
+<data>wefvbfg n </data>
+<name>Tk</name>
+<comments>ojefvnekjv</comments>
+                            </children>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2018</year>
+                    <id>2154q</id>
+                    <name>Example Plan</name>
+                    <quarter></quarter>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2018</year>
+                    <id>1er</id>
+                    <name>First Plan Example</name>
+                    <quarter>First</quarter>
+                </plans>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Top Level</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Top Level</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <children>
+<type>
+    <min>1</min>
+    <max>1</max>
+    <name>Top Level</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</type>
+<data>Make money, live worse</data>
+<name>Goals</name>
+<comments>This is a great concept! We need to have important goals.</comments>
+<comments>I hate this idea- I've never had a goal before in my life.</comments>
+<comments>Filler</comments>
+<comments>moar filler</comments>
+<comments>even moar fille</comments>
+                            </children>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2017</year>
+                    <id>12e</id>
+                    <name>Second Example</name>
+                    <quarter>Second</quarter>
+                </plans>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Values</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>2</max>
+<name>Missions</name>
+<rank>2</rank>
+<statementCount>1</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>5</max>
+<name>Objectives</name>
+<rank>3</rank>
+<statementCount>2</statementCount>
+                            </category>
+                            <category>
+<min>2</min>
+<max>4</max>
+<name>Strategies</name>
+<rank>4</rank>
+<statementCount>2</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>15</max>
+<name>Action Plans</name>
+<rank>5</rank>
+<statementCount>2</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Values</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>2</max>
+<name>Missions</name>
+<rank>2</rank>
+<statementCount>1</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>5</max>
+<name>Objectives</name>
+<rank>3</rank>
+<statementCount>2</statementCount>
+                            </category>
+                            <category>
+<min>2</min>
+<max>4</max>
+<name>Strategies</name>
+<rank>4</rank>
+<statementCount>2</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>15</max>
+<name>Action Plans</name>
+<rank>5</rank>
+<statementCount>2</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <children>
+<type>
+    <min>1</min>
+    <max>1</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</type>
+<children>
+    <type>
+        <min>1</min>
+        <max>2</max>
+        <name>Missions</name>
+        <rank>2</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <children>
+        <type>
+            <min>1</min>
+            <max>5</max>
+            <name>Objectives</name>
+            <rank>3</rank>
+            <statementCount>2</statementCount>
+        </type>
+        <children>
+            <type>
+                <min>2</min>
+                <max>4</max>
+                <name>Strategies</name>
+                <rank>4</rank>
+                <statementCount>2</statementCount>
+            </type>
+            <children>
+                <type>
+                    <min>1</min>
+                    <max>15</max>
+                    <name>Action Plans</name>
+                    <rank>5</rank>
+                    <statementCount>2</statementCount>
+                </type>
+                <data>r</data>
+                <name>Action plan: preschools</name>
+            </children>
+            <children>
+                <type>
+                    <min>1</min>
+                    <max>15</max>
+                    <name>Action Plans</name>
+                    <rank>5</rank>
+                    <statementCount>2</statementCount>
+                </type>
+                <data>yeah</data>
+                <name>Action plan: elementary schools</name>
+            </children>
+            <data>Yeah</data>
+            <name>Strategy: the kids first</name>
+        </children>
+        <children>
+            <type>
+                <min>2</min>
+                <max>4</max>
+                <name>Strategies</name>
+                <rank>4</rank>
+                <statementCount>2</statementCount>
+            </type>
+            <data>oewjfv</data>
+            <name>Strategy: and then the adults</name>
+        </children>
+        <data>One toilet at a time</data>
+        <name>Objective: save the world</name>
+    </children>
+    <children>
+        <type>
+            <min>1</min>
+            <max>5</max>
+            <name>Objectives</name>
+            <rank>3</rank>
+            <statementCount>2</statementCount>
+        </type>
+        <data>I still don't know what to type here</data>
+        <name>Objective: clean the world</name>
+    </children>
+    <data>More filler</data>
+    <name>Mission: no person goes uncleaned</name>
+</children>
+<data>Motivational words</data>
+<name>To make a better world with our toilet paper</name>
+<comments>This is chill</comments>
+<comments>I hate this</comments>
+                            </children>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2015</year>
+                    <id>vm0sa</id>
+                    <name>Yearly VMOSA Plan</name>
+                    <quarter>Yearly</quarter>
+                </plans>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Point One</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                            <category>
+<min>2</min>
+<max>5</max>
+<name>Point Two</name>
+<rank>2</rank>
+<statementCount>0</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Point One</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                            <category>
+<min>2</min>
+<max>5</max>
+<name>Point Two</name>
+<rank>2</rank>
+<statementCount>0</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <children>
+<type>
+    <min>1</min>
+    <max>1</max>
+    <name>Point One</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</type>
+<data>yes</data>
+<name>Kaeman </name>
+<comments>maeman</comments>
+                            </children>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2014</year>
+                    <id>CC4</id>
+                    <name>Centre College Plan- 4th</name>
+                    <quarter>Fourth</quarter>
+                </plans>
+            </planList>
+        </departments>
+    </departmentList>
+    <tokenGenerator/>
+</server>

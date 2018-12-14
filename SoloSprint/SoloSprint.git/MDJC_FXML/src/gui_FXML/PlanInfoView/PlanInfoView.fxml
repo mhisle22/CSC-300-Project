@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_FXML.PlanInfoView.PlanInfoController">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="142.0" prefWidth="244.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="690.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Plan Name: ">
+                     <font>
+                        <Font name="Calibri Italic" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="nameField" prefHeight="20.0" prefWidth="150.0" promptText="Enter plan name here">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Calibri Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="690.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Plan ID: ">
+                     <font>
+                        <Font name="Calibri Italic" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="idField" prefHeight="20.0" prefWidth="150.0" promptText="Enter plan ID here">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Calibri Italic" size="12.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="690.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Plan Year:">
+                     <font>
+                        <Font name="Calibri Italic" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <TextField fx:id="yearField" prefHeight="20.0" prefWidth="150.0" promptText="Enter plan year here">
+                     <font>
+                        <Font name="Calibri Italic" size="12.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="252.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Editable?">
+                     <font>
+                        <Font name="Calibri Italic" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Text>
+                  <RadioButton fx:id="canEdit" mnemonicParsing="false" text="Yes">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="editGroup" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="noEdit" mnemonicParsing="false" text="No" toggleGroup="$editGroup">
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </RadioButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="142.0" prefWidth="750.0" spacing="10.0">
+         <children>
+            <Button fx:id="newButton" mnemonicParsing="false" onAction="#newPlanPressed" prefWidth="125.0" text="New" />
+            <Button fx:id="retrieveButton" mnemonicParsing="false" onAction="#retrievePlanPressed" prefWidth="125.0" text="Retrieve" />
+            <Button fx:id="submitButton" mnemonicParsing="false" onAction="#submitPlanPressed" prefWidth="130.0" text="Submit to Server" />
+            <Button fx:id="addUserButton" mnemonicParsing="false" onAction="#addUserPressed" prefWidth="125.0" text="Add User" />
+            <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitPressed" prefWidth="125.0" text="Exit Program" />
+            <Label fx:id="quarterLabel" prefHeight="25.0" prefWidth="68.0" text="Default">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</HBox>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="326.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_FXML.StatementInfo.StatementInfoController">
+   <children>
+      <Label fx:id="categoryName" prefHeight="27.0" prefWidth="205.0" text="Category Name" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="statementName" prefWidth="600.0" promptText="Example Statement Name">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </TextField>
+      <TextArea fx:id="statementData" prefHeight="73.0" prefWidth="525.0" promptText="Information for Statement Goes Here" wrapText="true">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </TextArea>
+      <HBox alignment="CENTER" prefHeight="54.0" prefWidth="600.0" spacing="10.0">
+         <children>
+            <Button fx:id="saveStatement" mnemonicParsing="false" onAction="#saveThisStatement" prefHeight="31.0" prefWidth="99.0" text="Button" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

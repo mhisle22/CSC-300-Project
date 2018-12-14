@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<server>
+    <userList>
+        <users>
+            <username>admin</username>
+            <password>CSC300</password>
+            <department>
+                <departmentName>DEFAULT</departmentName>
+                <planList>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>3</max>
+        <name>Values</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <data>Code should work</data>
+    <name>Functionality</name>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2018</year>
+                        <id>VMOSA_2018</id>
+                        <name>VMOSA</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Sprints</name>
+    <rank>1</rank>
+    <statementCount>3</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Documentation</name>
+    <rank>2</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Sprints</name>
+    <rank>1</rank>
+    <statementCount>3</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Documentation</name>
+    <rank>2</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>5</max>
+        <name>Sprints</name>
+        <rank>1</rank>
+        <statementCount>3</statementCount>
+    </type>
+    <data>BusinessPlan rep</data>
+    <name>Sprint1</name>
+</children>
+<children>
+    <type>
+        <min>1</min>
+        <max>5</max>
+        <name>Sprints</name>
+        <rank>1</rank>
+        <statementCount>3</statementCount>
+    </type>
+    <data>Client-Server</data>
+    <name>Sprint2</name>
+</children>
+<children>
+    <type>
+        <min>1</min>
+        <max>5</max>
+        <name>Sprints</name>
+        <rank>1</rank>
+        <statementCount>3</statementCount>
+    </type>
+    <data>GUI</data>
+    <name>Sprint3</name>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2018</year>
+                        <id>CSC300_2018</id>
+                        <name>CSC300</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Level 1</name>
+    <rank>1</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Level 1</name>
+    <rank>1</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2010</year>
+                        <id>#1</id>
+                        <name>Example #1</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>14</year>
+                        <id>#2</id>
+                        <name>Example #2</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2011</year>
+                        <id>#3</id>
+                        <name>Example #3</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2012</year>
+                        <id>#4</id>
+                        <name>Example #4</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2014</year>
+                        <id>#5</id>
+                        <name>Example #5</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2020</year>
+                        <id>#6</id>
+                        <name>Example #6</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>1998</year>
+                        <id>#7</id>
+                        <name>Example #7</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>1999</year>
+                        <id>#8</id>
+                        <name>Example #8</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2009</year>
+                        <id>#9</id>
+                        <name>Example #9</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>1234</year>
+                        <id>#10</id>
+                        <name>Example #10</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2004</year>
+                        <id>#11</id>
+                        <name>Example #11</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2007</year>
+                        <id>#12</id>
+                        <name>Example #12</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2010</year>
+                        <id>#13</id>
+                        <name>Example #13</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Vision</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Vision</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>1</max>
+        <name>Vision</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <data>This should be allowed to be edited</data>
+    <name>Vision1</name>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>false</isEditable>
+                        <year>2009</year>
+                        <id>#14</id>
+                        <name>Example #14</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2005</year>
+                        <id>#15</id>
+                        <name>Example #15</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2006</year>
+                        <id>#16</id>
+                        <name>Example #16</name>
+                    </plans>
+                </planList>
+            </department>
+            <isAdmin>true</isAdmin>
+        </users>
+        <users>
+            <username>Student</username>
+            <password>csclab123</password>
+            <department>
+                <departmentName>Computer Science</departmentName>
+                <planList/>
+            </department>
+            <isAdmin>false</isAdmin>
+        </users>
+        <users>
+            <username>user</username>
+            <password>amUser</password>
+            <department>
+                <departmentName>DEFAULT</departmentName>
+                <planList>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>3</max>
+        <name>Values</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <data>Code should work</data>
+    <name>Functionality</name>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2018</year>
+                        <id>VMOSA_2018</id>
+                        <name>VMOSA</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Sprints</name>
+    <rank>1</rank>
+    <statementCount>3</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Documentation</name>
+    <rank>2</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>5</max>
+    <name>Sprints</name>
+    <rank>1</rank>
+    <statementCount>3</statementCount>
+</category>
+<category>
+    <min>1</min>
+    <max>3</max>
+    <name>Documentation</name>
+    <rank>2</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>5</max>
+        <name>Sprints</name>
+        <rank>1</rank>
+        <statementCount>3</statementCount>
+    </type>
+    <data>BusinessPlan rep</data>
+    <name>Sprint1</name>
+</children>
+<children>
+    <type>
+        <min>1</min>
+        <max>5</max>
+        <name>Sprints</name>
+        <rank>1</rank>
+        <statementCount>3</statementCount>
+    </type>
+    <data>Client-Server</data>
+    <name>Sprint2</name>
+</children>
+<children>
+    <type>
+        <min>1</min>
+        <max>5</max>
+        <name>Sprints</name>
+        <rank>1</rank>
+        <statementCount>3</statementCount>
+    </type>
+    <data>GUI</data>
+    <name>Sprint3</name>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2018</year>
+                        <id>CSC300_2018</id>
+                        <name>CSC300</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Level 1</name>
+    <rank>1</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Level 1</name>
+    <rank>1</rank>
+    <statementCount>0</statementCount>
+</category>
+                            </categories>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2010</year>
+                        <id>#1</id>
+                        <name>Example #1</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>14</year>
+                        <id>#2</id>
+                        <name>Example #2</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2011</year>
+                        <id>#3</id>
+                        <name>Example #3</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2012</year>
+                        <id>#4</id>
+                        <name>Example #4</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2014</year>
+                        <id>#5</id>
+                        <name>Example #5</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2020</year>
+                        <id>#6</id>
+                        <name>Example #6</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>1998</year>
+                        <id>#7</id>
+                        <name>Example #7</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>1999</year>
+                        <id>#8</id>
+                        <name>Example #8</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2009</year>
+                        <id>#9</id>
+                        <name>Example #9</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>1234</year>
+                        <id>#10</id>
+                        <name>Example #10</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2004</year>
+                        <id>#11</id>
+                        <name>Example #11</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2007</year>
+                        <id>#12</id>
+                        <name>Example #12</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2010</year>
+                        <id>#13</id>
+                        <name>Example #13</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Vision</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                        </design>
+                        <tree>
+                            <categories>
+<category>
+    <min>1</min>
+    <max>1</max>
+    <name>Vision</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</category>
+                            </categories>
+                            <root>
+<children>
+    <type>
+        <min>1</min>
+        <max>1</max>
+        <name>Vision</name>
+        <rank>1</rank>
+        <statementCount>1</statementCount>
+    </type>
+    <data>This should be allowed to be edited</data>
+    <name>Vision1</name>
+</children>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2009</year>
+                        <id>#14</id>
+                        <name>Example #14</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2005</year>
+                        <id>#15</id>
+                        <name>Example #15</name>
+                    </plans>
+                    <plans>
+                        <design>
+                            <categories/>
+                        </design>
+                        <tree>
+                            <root>
+<data>root</data>
+<name>root</name>
+                            </root>
+                        </tree>
+                        <isEditable>true</isEditable>
+                        <year>2006</year>
+                        <id>#16</id>
+                        <name>Example #16</name>
+                    </plans>
+                </planList>
+            </department>
+            <isAdmin>false</isAdmin>
+        </users>
+        <users>
+            <username>user</username>
+            <password>amUser</password>
+            <department>
+                <departmentName>DEFAULT</departmentName>
+                <planList/>
+            </department>
+            <isAdmin>false</isAdmin>
+        </users>
+        <users>
+            <username>Drew Meaux</username>
+            <password>avatar</password>
+            <department>
+                <departmentName>CSC</departmentName>
+                <planList/>
+            </department>
+            <isAdmin>false</isAdmin>
+        </users>
+    </userList>
+    <departmentList>
+        <departments>
+            <departmentName>DEFAULT</departmentName>
+            <planList>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>3</max>
+<name>Values</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>3</max>
+<name>Values</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <children>
+<type>
+    <min>1</min>
+    <max>3</max>
+    <name>Values</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</type>
+<data>Code should work</data>
+<name>Functionality</name>
+                            </children>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2018</year>
+                    <id>VMOSA_2018</id>
+                    <name>VMOSA</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>5</max>
+<name>Sprints</name>
+<rank>1</rank>
+<statementCount>3</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>3</max>
+<name>Documentation</name>
+<rank>2</rank>
+<statementCount>0</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>5</max>
+<name>Sprints</name>
+<rank>1</rank>
+<statementCount>3</statementCount>
+                            </category>
+                            <category>
+<min>1</min>
+<max>3</max>
+<name>Documentation</name>
+<rank>2</rank>
+<statementCount>0</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <children>
+<type>
+    <min>1</min>
+    <max>5</max>
+    <name>Sprints</name>
+    <rank>1</rank>
+    <statementCount>3</statementCount>
+</type>
+<data>BusinessPlan rep</data>
+<name>Sprint1</name>
+                            </children>
+                            <children>
+<type>
+    <min>1</min>
+    <max>5</max>
+    <name>Sprints</name>
+    <rank>1</rank>
+    <statementCount>3</statementCount>
+</type>
+<data>Client-Server</data>
+<name>Sprint2</name>
+                            </children>
+                            <children>
+<type>
+    <min>1</min>
+    <max>5</max>
+    <name>Sprints</name>
+    <rank>1</rank>
+    <statementCount>3</statementCount>
+</type>
+<data>GUI</data>
+<name>Sprint3</name>
+                            </children>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2018</year>
+                    <id>CSC300_2018</id>
+                    <name>CSC300</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Level 1</name>
+<rank>1</rank>
+<statementCount>0</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Level 1</name>
+<rank>1</rank>
+<statementCount>0</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2010</year>
+                    <id>#1</id>
+                    <name>Example #1</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>14</year>
+                    <id>#2</id>
+                    <name>Example #2</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2011</year>
+                    <id>#3</id>
+                    <name>Example #3</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2012</year>
+                    <id>#4</id>
+                    <name>Example #4</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2014</year>
+                    <id>#5</id>
+                    <name>Example #5</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2020</year>
+                    <id>#6</id>
+                    <name>Example #6</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>1998</year>
+                    <id>#7</id>
+                    <name>Example #7</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>1999</year>
+                    <id>#8</id>
+                    <name>Example #8</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2009</year>
+                    <id>#9</id>
+                    <name>Example #9</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>1234</year>
+                    <id>#10</id>
+                    <name>Example #10</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2004</year>
+                    <id>#11</id>
+                    <name>Example #11</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2007</year>
+                    <id>#12</id>
+                    <name>Example #12</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2010</year>
+                    <id>#13</id>
+                    <name>Example #13</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Vision</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                    </design>
+                    <tree>
+                        <categories>
+                            <category>
+<min>1</min>
+<max>1</max>
+<name>Vision</name>
+<rank>1</rank>
+<statementCount>1</statementCount>
+                            </category>
+                        </categories>
+                        <root>
+                            <children>
+<type>
+    <min>1</min>
+    <max>1</max>
+    <name>Vision</name>
+    <rank>1</rank>
+    <statementCount>1</statementCount>
+</type>
+<data>This should be allowed to be edited</data>
+<name>Vision1</name>
+                            </children>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>false</isEditable>
+                    <year>2009</year>
+                    <id>#14</id>
+                    <name>Example #14</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2005</year>
+                    <id>#15</id>
+                    <name>Example #15</name>
+                </plans>
+                <plans>
+                    <design>
+                        <categories/>
+                    </design>
+                    <tree>
+                        <root>
+                            <data>root</data>
+                            <name>root</name>
+                        </root>
+                    </tree>
+                    <isEditable>true</isEditable>
+                    <year>2006</year>
+                    <id>#16</id>
+                    <name>Example #16</name>
+                </plans>
+            </planList>
+        </departments>
+        <departments>
+            <departmentName>Computer Science</departmentName>
+            <planList/>
+        </departments>
+        <departments>
+            <departmentName>DEFAULT</departmentName>
+            <planList/>
+        </departments>
+        <departments>
+            <departmentName>DEFAULT</departmentName>
+            <planList/>
+        </departments>
+        <departments>
+            <departmentName>CSC</departmentName>
+            <planList/>
+        </departments>
+    </departmentList>
+    <tokenGenerator/>
+</server>

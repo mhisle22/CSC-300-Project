@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="272.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_FXML.AddNewStatement.AddNewStatementController">
+   <top>
+      <Label alignment="TOP_LEFT" text="Add New Statement Window" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <GridPane alignment="CENTER" prefHeight="331.0" prefWidth="612.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="291.20001220703125" minWidth="10.0" prefWidth="213.60003662109375" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="386.39996337890625" minWidth="10.0" prefWidth="386.39996337890625" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="164.00000762939453" minHeight="10.0" prefHeight="156.00000762939453" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="269.19999542236326" minHeight="10.0" prefHeight="152.79999999999998" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="269.19999542236326" minHeight="10.0" prefHeight="71.19999999999999" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Statement Name:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="102.0" text="Statement:" GridPane.rowIndex="1">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="sNameField" prefHeight="26.0" prefWidth="330.0" promptText="Type name of new statement here." GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextArea fx:id="sField" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="92.0" prefWidth="366.0" promptText="Type the statement here." GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="50.0" left="10.0" right="10.0" top="50.0" />
+               </GridPane.margin>
+            </TextArea>
+            <Button fx:id="addStatementButton" mnemonicParsing="false" onAction="#addStatementToPlan" prefHeight="46.0" prefWidth="154.0" text="Add New Statement" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="10.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

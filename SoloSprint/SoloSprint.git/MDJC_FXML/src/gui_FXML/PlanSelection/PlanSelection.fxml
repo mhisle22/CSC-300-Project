@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_FXML.PlanSelection.PlanSelection">
+   <top>
+      <VBox prefHeight="72.0" prefWidth="301.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="topText" strokeType="OUTSIDE" strokeWidth="0.0" text="Business Plan Selection" textAlignment="CENTER" wrappingWidth="300.4296875">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="5.0" />
+               </VBox.margin>
+            </Text>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <RadioButton fx:id="cloneRadio" mnemonicParsing="false" text="Clone">
+                     <HBox.margin>
+                        <Insets left="75.0" />
+                     </HBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="ogGroup" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="originalRadio" mnemonicParsing="false" selected="true" text="Original" toggleGroup="$ogGroup">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </RadioButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <bottom>
+      <Button fx:id="newButton" mnemonicParsing="false" onAction="#newPressed" text="New" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <ScrollPane fx:id="scrollPane" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+   </center>
+</BorderPane>
