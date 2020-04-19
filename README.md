@@ -1,5 +1,4 @@
 # CSC-300-Project
-Transfer from school account to private 
-
+Business modeling software developed on a small team of students.
 
 Additional README two levels down
